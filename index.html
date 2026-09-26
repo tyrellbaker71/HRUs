@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Handles R Us — Architectural Ironmongery Specialists</title>
+<meta name="description" content="Handles R Us is an architectural ironmongery specialist and supplier of hinges, locks, cylinders, door handles and accessories." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="hru-header">
+    <div class="hru-container hru-header__inner">
+      <a href="index.html" class="hru-header__logo" aria-label="Handles R Us — Home">
+        <img src="images/logo.png" alt="Handles R Us — Let Us Handle It" class="hru-header__logo-img" />
+      </a>
+
+      <nav class="hru-header__nav" aria-label="Primary">
+        <a href="index.html" class="hru-header__link">Home</a>
+        <a href="projects.html" class="hru-header__link">Projects</a>
+      </nav>
+
+      <div class="hru-header__actions">
+        <a href="#enquire" class="hru-btn hru-btn--primary hru-btn--sm">Enquire Now</a>
+      </div>
+
+      <button class="hru-header__burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="hru-mobile-menu" id="mobileMenu">
+      <a href="index.html" class="hru-mobile-menu__link">Home</a>
+      <a href="projects.html" class="hru-mobile-menu__link">Projects</a>
+      <a href="#enquire" class="hru-btn hru-btn--primary hru-mobile-menu__cta">Enquire Now</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hru-hero">
+    <div class="hru-hero__slides" id="heroSlides">
+      <div class="hru-hero__slide is-active">
+        <div class="hru-placeholder hru-placeholder--dark hru-hero__placeholder">
+          <img src="images/hero-1.jpg" alt="Handles R Us hero image 1" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          <span class="hru-placeholder__label">HERO IMAGE 01</span>
+        </div>
+      </div>
+      <div class="hru-hero__slide">
+        <div class="hru-placeholder hru-placeholder--dark hru-hero__placeholder">
+          <img src="images/hero-2.jpg" alt="Handles R Us hero image 2" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          <span class="hru-placeholder__label">HERO IMAGE 02</span>
+        </div>
+      </div>
+      <div class="hru-hero__slide">
+        <div class="hru-placeholder hru-placeholder--dark hru-hero__placeholder">
+          <img src="images/hero-3.jpg" alt="Handles R Us hero image 3" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          <span class="hru-placeholder__label">HERO IMAGE 03</span>
+        </div>
+      </div>
+      <div class="hru-hero__slide">
+        <div class="hru-placeholder hru-placeholder--dark hru-hero__placeholder">
+          <img src="images/hero-4.jpg" alt="Handles R Us hero image 4" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          <span class="hru-placeholder__label">HERO IMAGE 04</span>
+        </div>
+      </div>
+      <div class="hru-hero__slide">
+        <div class="hru-placeholder hru-placeholder--dark hru-hero__placeholder">
+          <img src="images/hero-5.jpg" alt="Handles R Us hero image 5" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          <span class="hru-placeholder__label">HERO IMAGE 05</span>
+        </div>
+      </div>
+      <div class="hru-hero__overlay"></div>
+    </div>
+
+    <div class="hru-container hru-hero__content">
+      <p class="hru-eyebrow hru-eyebrow--light">Architectural Ironmongery Specialists</p>
+      <h1 class="hru-hero__logo-chip">
+        <img src="images/logo.png" alt="Handles R Us — Let Us Handle It" class="hru-hero__logo-img" />
+      </h1>
+      <p class="hru-hero__subtitle">
+        Beautiful, high-quality ironmongery and architectural hardware for projects
+        that deserve to stand out.
+      </p>
+      <div class="hru-hero__actions">
+        <a href="#catalogue" class="hru-btn hru-btn--primary">Explore Our Ironmongery</a>
+        <a href="projects.html" class="hru-btn hru-btn--outline-light">View Our Projects</a>
+      </div>
+    </div>
+
+    <div class="hru-hero__controls">
+      <button class="hru-hero__arrow" id="heroPrev" aria-label="Previous slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="hru-hero__dashes" id="heroDashes" role="tablist" aria-label="Slide selection"></div>
+      <button class="hru-hero__arrow" id="heroNext" aria-label="Next slide">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ================= INTRODUCTION ================= -->
+  <section class="hru-section">
+    <div class="hru-container hru-intro">
+      <div class="hru-placeholder hru-intro__image" style="aspect-ratio: 4 / 5;">
+        <img src="images/intro.jpg" alt="Architectural ironmongery detail" class="hru-placeholder__img" onerror="this.style.display='none'" />
+        <span class="hru-placeholder__corner hru-placeholder__corner--tl"></span>
+        <span class="hru-placeholder__corner hru-placeholder__corner--tr"></span>
+        <span class="hru-placeholder__corner hru-placeholder__corner--bl"></span>
+        <span class="hru-placeholder__corner hru-placeholder__corner--br"></span>
+        <span class="hru-placeholder__label">ARCHITECTURAL IMAGE</span>
+      </div>
+      <div class="hru-intro__content">
+        <p class="hru-eyebrow">Handles R Us</p>
+        <h2 class="hru-heading-lg">Architectural Ironmongery, Beautifully Specified.</h2>
+        <p class="hru-body-lg">
+          Handles R Us is an architectural ironmongery specialist and supplier. We specify
+          and supply the most beautiful ironmongery to make your project really stand out
+          hinges, locks, cylinders, door handles and all the accessories in between.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATALOGUE ================= -->
+  <section id="catalogue" class="hru-section hru-section--cream">
+    <div class="hru-container">
+      <div class="hru-section-head">
+        <p class="hru-eyebrow">Our Ironmongery</p>
+        <h2 class="hru-heading-lg">The Full Ironmongery Schedule</h2>
+        <p class="hru-body-lg hru-section-head__body">
+          Handles R Us supplies a comprehensive range of architectural ironmongery and
+          door hardware, specified and finished to suit every project.
+        </p>
+      </div>
+
+      <div class="hru-schedule-grid" id="catalogueGrid">
+        <!-- populated by script.js from the CATALOGUE data array -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS PREVIEW ================= -->
+  <section class="hru-section">
+    <div class="hru-container">
+      <div class="hru-section-head">
+        <p class="hru-eyebrow">Our Projects</p>
+        <h2 class="hru-heading-lg">A Portfolio of Considered Detail</h2>
+        <p class="hru-body-lg hru-section-head__body">
+          A selection of projects where carefully specified ironmongery helps bring the
+          final details together.
+        </p>
+      </div>
+
+      <div class="hru-projects-grid">
+        <article class="hru-project-card">
+          <div class="hru-placeholder hru-project-card__image" style="aspect-ratio: 4 / 3;">
+            <img src="images/project-1.jpg" alt="Project 01" class="hru-placeholder__img" onerror="this.style.display='none'" />
+            <span class="hru-placeholder__corner hru-placeholder__corner--tl"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--tr"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--bl"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--br"></span>
+            <span class="hru-placeholder__label">PROJECT IMAGE 01</span>
+          </div>
+          <h3 class="hru-project-card__name">Springvale House</h3>
+          <p class="hru-project-card__category">Residential </p>
+        </article>
+        <article class="hru-project-card">
+          <div class="hru-placeholder hru-project-card__image" style="aspect-ratio: 4 / 3;">
+            <img src="images/project-2.jpg" alt="Project 02" class="hru-placeholder__img" onerror="this.style.display='none'" />
+            <span class="hru-placeholder__corner hru-placeholder__corner--tl"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--tr"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--bl"></span>
+            <span class="hru-placeholder__corner hru-placeholder__corner--br"></span>
+            <span class="hru-placeholder__label">Lord Charles Hotel</span>
+          </div>
+          <h3 class="hru-project-card__name">Lord Charles Hotel</h3>
+          <p class="hru-project-card__category">Commercial </p>
+        </article>
+        <article class="hru-project-card">
+          <div class="hru-placeholder hru-project-card__image" style="aspect-ratio: 4 / 3;">
+            <img src="images/project-3.jpg" alt="Project 03" class="hru-placeholder__img" onerror="this.style.display='none'" />
+          </div>
+          <h3 class="hru-project-card__name">Zimbali House</h3>
+          <p class="hru-project-card__category">Residential </p>
+        </article>
+      </div>
+
+      <div class="hru-projects-cta">
+        <a href="projects.html" class="hru-btn hru-btn--outline-dark">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CALL TO ACTION ================= -->
+  <section id="enquire" class="hru-cta">
+    <div class="hru-placeholder hru-placeholder--dark hru-cta__image" style="aspect-ratio: 21 / 9;">
+      <img src="images/cta-background.jpg" alt="" class="hru-placeholder__img" onerror="this.style.display='none'" />
+      <span class="hru-placeholder__corner hru-placeholder__corner--tl"></span>
+      <span class="hru-placeholder__corner hru-placeholder__corner--tr"></span>
+      <span class="hru-placeholder__corner hru-placeholder__corner--bl"></span>
+      <span class="hru-placeholder__corner hru-placeholder__corner--br"></span>
+      <span class="hru-placeholder__label">CTA BACKGROUND IMAGE</span>
+    </div>
+    <div class="hru-cta__overlay"></div>
+    <div class="hru-container hru-cta__content">
+      <h2 class="hru-cta__title">Let's Make Your Project Stand Out</h2>
+      <p class="hru-cta__subtitle">
+        Talk to us about the ironmongery requirements for your next project.
+      </p>
+      <div class="hru-cta__actions">
+        <a href="mailto:rene@handlesrus.co.za" class="hru-btn hru-btn--primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hru-btn__icon"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2 7 12 13 22 7"/></svg>
+          Email Us
+        </a>
+        <a href="tel:+27833804971" class="hru-btn hru-btn--outline-light">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hru-btn__icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="hru-footer">
+    <div class="hru-container hru-footer__inner">
+      <div class="hru-footer__brand">
+        <div class="hru-footer__logo-chip">
+          <img src="images/logo.png" alt="Handles R Us — Let Us Handle It" class="hru-footer__logo-img" />
+        </div>
+        <p class="hru-footer__desc">
+          Architectural ironmongery specialist and supplier of hinges, locks, cylinders,
+          door handles and accessories.
+        </p>
+      </div>
+
+      <nav class="hru-footer__nav" aria-label="Footer">
+        <a href="index.html" class="hru-footer__link">Home</a>
+        <a href="projects.html" class="hru-footer__link">Projects</a>
+        <a href="#enquire" class="hru-footer__link">Enquire Now</a>
+      </nav>
+
+      <div class="hru-footer__contact">
+        <p class="hru-footer__contact-label">Contact</p>
+        <a href="mailto:rene@handlesrus.co.za" class="hru-footer__contact-link">rene@handlesrus.co.za</a>
+        <a href="tel:+27833804971" class="hru-footer__contact-link">+27 83 380 4971</a>
+        <a href="https://wa.me/27833804971" target="_blank" rel="noopener noreferrer" class="hru-footer__contact-link">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="hru-container hru-footer__bottom">
+      <p>&copy; <span id="footerYear"></span> Handles R Us. All rights reserved. | Powered by Tyrell Baker</p>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING WHATSAPP BUTTON ================= -->
+  <a href="https://wa.me/27833804971" target="_blank" rel="noopener noreferrer" class="hru-whatsapp" aria-label="Message us on WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 32 32" fill="currentColor"><path d="M16.02 3C9.4 3 4.02 8.38 4.02 15c0 2.23.6 4.32 1.65 6.12L3 29l8.06-2.62A11.93 11.93 0 0016.02 27C22.65 27 28 21.62 28 15S22.65 3 16.02 3zm0 21.7c-1.94 0-3.75-.53-5.3-1.46l-.38-.22-4.65 1.51 1.53-4.53-.25-.4A9.68 9.68 0 016.32 15c0-5.35 4.36-9.7 9.7-9.7 5.34 0 9.68 4.35 9.68 9.7 0 5.35-4.34 9.7-9.68 9.7zm5.32-7.27c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.66.15-.2.29-.75.95-.92 1.14-.17.2-.34.22-.63.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.61-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.58-.9-2.17-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.56-.01-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.44 0 1.44 1.05 2.83 1.2 3.02.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.62.7.22 1.34.19 1.84.12.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.35z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
